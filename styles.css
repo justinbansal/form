@@ -1,0 +1,33 @@
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFD700;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  max-width: 500px;
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgb(25,25,112);
+  color: white;
+  box-shadow: -1px 2px 14px 0px rgba(0,0,0,0.75);
+}
+
+.form-group {
+  padding: 1rem;
+}
