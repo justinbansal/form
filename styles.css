@@ -29,7 +29,7 @@ h1 {
 }
 
 form {
-  max-width: 500px;
+  max-width: 700px;
   padding: 1rem;
   margin: 0 auto;
   border-radius: 10px;
@@ -38,8 +38,21 @@ form {
   box-shadow: -1px 2px 14px 0px rgba(0,0,0,0.75);
 }
 
+.form-main {
+  @media screen and (min-width: 768px) {
+    width: 75%;
+  }
+}
+
 .form-group {
   padding: 1rem;
+}
+
+.form-group--side-by-side {
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    width: 50%;
+  }
 }
 
 input[type="text"],
