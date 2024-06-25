@@ -32,6 +32,15 @@ form {
   padding: 1rem;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"] {
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  border: 0;
+}
+
 .submit-btn {
   padding: 10px 20px;
   border-radius: 5px;
