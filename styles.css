@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -16,6 +25,7 @@ body {
 
 h1 {
   margin: 0;
+  font-weight: normal;
 }
 
 form {
@@ -39,6 +49,7 @@ input[type="url"] {
   padding: 0.7rem 1rem;
   border-radius: 5px;
   border: 0;
+  width: 100%;
 }
 
 .submit-btn {
