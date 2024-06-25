@@ -55,6 +55,10 @@ form {
   }
 }
 
+.form-group--has-checkbox {
+  display: flex;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -65,8 +69,30 @@ input[type="url"] {
   width: 100%;
 }
 
+input[type="file"] {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border-radius: 10px;
+}
+
+input[type="file"]::file-selector-button {
+  padding: 11px 20px;
+  background: #48D1CC;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
 .submit-btn {
   padding: 10px 20px;
   border-radius: 5px;
   border: 0;
+}
+
+.submit-btn:focus-within,
+.submit-btn:hover {
+  outline: 2px solid black;
+  outline-offset: 2px;
 }
